@@ -240,7 +240,7 @@ function showResult() {
       <button id="download-btn">Download</button>
       <button id="restart-btn">Restart</button>
     </div>
-    <div class="floating-circle" onclick="window.location.href='https://drive.google.com/drive/folders/11WsHmH8dHOWAlBWxfQeJcqx-n5RKH69Y?usp=sharing';"></div>
+    <div class="floating-circle" onclick="window.location.href='https://chromaticreature.github.io/portfolio/';"></div>
   `;
   
   // Add event listener for the Restart button
