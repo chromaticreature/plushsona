@@ -74,8 +74,8 @@ const questions = [
     question: "Q7/12: The chief confides with you that without the magic relic, the villagers turn into plushies. You...",
     image: "ImagesFolder/q7.png",
     answers: [
-      { type: "T", text: "Start crafting a plan to recover the relic and rescue the villagers. *Time is of the essence*", scores: { T: 1, F: 0 } },
-      { type: "F", text: "Feel sad at the thought of your friends as plushies and decide to set off at dawn. *Safety first*", scores: { T: 0, F: 1 } }
+      { type: "T", text: "Immediately start crafting a plan to recover the relic and rescue the villagers.", scores: { T: 1, F: 0 } },
+      { type: "F", text: "Wait for the sun to rise before setting off to rescue the villagers.", scores: { T: 0, F: 1 } }
     ]
   },
   {
