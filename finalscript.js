@@ -75,7 +75,7 @@ const questions = [
     image: "ImagesFolder/q7.png",
     answers: [
       { type: "T", text: "Immediately start crafting a plan to recover the relic and rescue the villagers.", scores: { T: 1, F: 0 } },
-      { type: "F", text: "Wait for the sun to rise before setting off to rescue the villagers.", scores: { T: 0, F: 1 } }
+      { type: "F", text: "Wait for the sun to rise before setting off to rescue the villagers. No point getting lost too.", scores: { T: 0, F: 1 } }
     ]
   },
   {
