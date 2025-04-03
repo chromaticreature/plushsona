@@ -240,7 +240,7 @@ function showResult() {
       <button id="download-btn">Download</button>
       <button id="restart-btn">Restart</button>
     </div>
-    <div class="floating-circle" onclick="window.location.href='https://forms.office.com/Pages/ResponsePage.aspx?id=xClkjH8We0e4y3fugnWNEazCzCeIPt5LqDdfLjXOsi9UMlFaNzdONExSRE5HOTNYT1NGTk83WllEMy4u';"></div>
+    <div class="floating-circle" onclick="window.location.href='https://drive.google.com/drive/folders/11WsHmH8dHOWAlBWxfQeJcqx-n5RKH69Y?usp=sharing';"></div>
   `;
   
   // Add event listener for the Restart button
