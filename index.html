@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Find your Plushsona</title>
+  <link rel="icon" type="image/png" href="ImagesFolder/jcfavicon.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <div id="start">
+      <h1>Which Plushsona Are You?</h1>
+        <div>
+        <img src="ImagesFolder/frontimage.gif" width="300" height="" alt="Start Image">
+      </div>
+      <div>
+        <button onclick="startQuiz()">Start Adventure!</button>
+      </div>
+      <p class="quiz-credits">
+        <br>This quiz features characters inspired by plushies and is an independent creation with no official affiliation.<br>
+        Illustrated and coded by <a href="https://www.instagram.com/chromaticreature/">Sharkmin</a>
+      </p>
+    </div>
+
+    <!-- Quiz Page -->
+    <div class="quiz-page" id="quiz-page" style="display:none;">
+      <div id="quiz"></div>
+    </div>
+
+    <!-- Results Page -->    
+    <div id="result" class="results-page" style="display:none; text-align:center;">
+      <!-- Results content goes here -->
+      <div class="floating-circle" onclick="window.location.href='https://forms.office.com/Pages/ResponsePage.aspx?id=xClkjH8We0e4y3fugnWNEazCzCeIPt5LqDdfLjXOsi9UMlFaNzdONExSRE5HOTNYT1NGTk83WllEMy4u';"></div>
+    </div>
+  </div>
+
+  <script src="finalscript.js"></script>
+</body>
+</html>
