@@ -252,18 +252,14 @@ function showResult() {
   });
   
   // Add event listener for the Share button
-  document.getElementById("share-btn").addEventListener("click", function() {
-    if (navigator.share) {
-      navigator.share({
-        title: 'Check out my Plushsona!',
-        text: `Find out your Plushsona here! `,
-        url: window.location.href,
-      })
-      .then(() => console.log('Shared successfully'))
-      .catch((error) => console.log('Error sharing:', error));
-    } else {
-      alert('Sharing is not supported in your browser. Copy the link: ' + window.location.href);
-    }
+ document.getElementById("share-btn").addEventListener("click", function() {
+  const message = 'Apply for your Plushsona ID card here\n' + window.location.href;
+
+  navigator.clipboard.writeText(message).then(() => {
+    alert("Link copied to clipboard! ✅");
+  }).catch((err) => {
+    console.error("Could not copy text: ", err);
+  });
   });
   
   // Add event listener for the Download button
