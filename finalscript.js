@@ -98,7 +98,7 @@ const questions = [
     question: "Q10/12: At last, you discover the lost relic. Hooray!",
     image: "ImagesFolder/q10.gif",
     answers: [
-      { type: "S", text: "Hold it up to the light - that angle’s perfect. This one’s going straight to Stories.", scores: { S: 1, N: 0 } },
+      { type: "S", text: "Hold it up to the light - that angle is perfect. This one is going straight to Stories.", scores: { S: 1, N: 0 } },
       { type: "N", text: "Soon they’ll be chanting my name in Juniper Grove. Legendary status, here I come!", scores: { S: 0, N: 1 } }
     ]
   },
