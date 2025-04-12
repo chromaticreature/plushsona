@@ -26,7 +26,7 @@ const questions = [
     question: "Q1/12: You approach Juniper Grove, where you have heard magical creatures live. Curious, you...",
     image: "ImagesFolder/q1.png",
     answers: [
-      { type: "E", text: "Excitedly wander in while calling out to the creatures.", scores: { E: 1, I: 0 } },
+      { type: "E", text: "Excitedly wander in while calling out to the magical creatures.", scores: { E: 1, I: 0 } },
       { type: "I", text: "Carefully plot your approach like a magical creature detective.", scores: { E: 0, I: 1 } }
     ]
   },
@@ -82,7 +82,7 @@ const questions = [
     question: "Q8/12: As you prepare to embark on your quest deeper into the mysterious woods",
     image: "ImagesFolder/q8.png",
     answers: [
-      { type: "J", text: "You pack a map marked with a carefully planned route.", scores: { J: 1, P: 0 } },
+      { type: "J", text: "You tuck a detailed map marked with a planned route into your back pocket.", scores: { J: 1, P: 0 } },
       { type: "P", text: "You stuff your backpack full of snacks as that is the only thing you need.", scores: { J: 0, P: 1 } }
     ]
   },
@@ -115,7 +115,7 @@ const questions = [
     image: "ImagesFolder/q12.gif",
     answers: [
       { type: "J", text: "On the next full moon! You’re already planning what snacks to bring.", scores: { J: 1, P: 0 } },
-      { type: "P", text: "Who knows? Maybe a squirrel will drop you a clue or a rainbow will point the way.", scores: { J: 0, P: 1 } }
+      { type: "P", text: "Who knows? Maybe a squirrel will drop by or a rainbow will point the way.", scores: { J: 0, P: 1 } }
     ]
   }
 ];
