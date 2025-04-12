@@ -17,7 +17,7 @@ function playSound() {
 }
 
 function playResultSound() {
-  const resultSound = new Audio("Audio/sparkle.mp3"); // replace with your new sound file path
+  const resultSound = new Audio("Audio/sparkle.mp3");
   resultSound.play();
 }
 
@@ -79,7 +79,7 @@ const questions = [
     ]
   },
   {
-    question: "Q8/12: As you prepare to embark on your quest deeper into the mysterious woods",
+    question: "Q8/12: As you prepare to embark on your quest deeper into the mysterious woods.",
     image: "ImagesFolder/q8.png",
     answers: [
       { type: "J", text: "You tuck a detailed map marked with a planned route into your back pocket.", scores: { J: 1, P: 0 } },
