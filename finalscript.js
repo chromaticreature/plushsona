@@ -26,8 +26,8 @@ const questions = [
     question: "Q1/12: You approach Juniper Grove, where you have heard magical creatures live. Curious, you...",
     image: "ImagesFolder/q1.png",
     answers: [
-      { type: "E", text: "Excitedly wander in while calling out to the creatures, hoping to make a friendly connection.", scores: { E: 1, I: 0 } },
-      { type: "I", text: "Strategically observe from a distance, analysing the best way to approach the unfamiliar area.", scores: { E: 0, I: 1 } }
+      { type: "E", text: "Excitedly wander in while calling out to the creatures.", scores: { E: 1, I: 0 } },
+      { type: "I", text: "Carefully plot your approach like a magical creature detective.", scores: { E: 0, I: 1 } }
     ]
   },
   {
@@ -39,19 +39,19 @@ const questions = [
     ]
   },
   {
-    question: "Q3/12: You get lost when a cute squirrel scurries into your path, its tiny eyes glimmering with curiosity. You...",
+    question: "Q3/12: You get lost when a cute squirrel scurries into your path, its tiny eyes glimmering with curiosity.",
     image: "ImagesFolder/q3.gif",
     answers: [
-      { type: "T", text: "Assess the situation. A squirrel showing up when you're lost? That's a tad bit sus...", scores: { T: 1, F: 0 } },
-      { type: "F", text: "Carefully offer a nut, hoping the little creature knows the way better than you do.", scores: { T: 0, F: 1 } }
+      { type: "T", text: "A squirrel showing up when you're lost? That's a tad bit sus...", scores: { T: 1, F: 0 } },
+      { type: "F", text: "Hopefully the little creature knows the way better than you do.", scores: { T: 0, F: 1 } }
     ]
   },
   {
-    question: "Q4/12: After following the helpful squirrel, you suddenly find yourself before a mysterious, glowing portal. You...",
+    question: "Q4/12: After following the helpful squirrel, you suddenly find yourself before a mysterious, glowing portal.",
     image: "ImagesFolder/q4.gif",
     answers: [
-      { type: "J", text: "Take a moment to survey the portal. *What's on the other side? What if there's something dangerous?*", scores: { J: 1, P: 0 } },
-      { type: "P", text: "Leap through the portal, excited to see what's in store. *Hopefully the magical creatures are there!*", scores: { J: 0, P: 1 } }
+      { type: "J", text: "*What's on the other side? What if there's something dangerous?*", scores: { J: 1, P: 0 } },
+      { type: "P", text: "You immediately leap through the portal. *Who’s got time to wait?!*", scores: { J: 0, P: 1 } }
     ]
   },
   {
@@ -63,59 +63,59 @@ const questions = [
     ]
   },
   {
-    question: "Q6/12: Around the campfire, the warm glow sparks conversation and wonder. You focus on...",
+    question: "Q6/12: Around the campfire, the warm glow sparks conversation and wonder. You find yourself drawn to...",
     image: "ImagesFolder/q6.png",
     answers: [
-      { type: "S", text: "The crackle of the fire, the scent of woodsmoke, and the excitement of the villagers.", scores: { S: 1, N: 0 } },
-      { type: "N", text: "Their voices, letting your imagination wander through the magical tales they shared.", scores: { S: 0, N: 1 } }
+      { type: "S", text: "The crackle of the fire and the scent of woodsmoke.", scores: { S: 1, N: 0 } },
+      { type: "N", text: "Their laughter as they recount enchanting stories.", scores: { S: 0, N: 1 } }
     ]
   },
   {
-    question: "Q7/12: The chief confides with you that without the magic relic, the villagers turn into plushies. You...",
+    question: "Q7/12: The chief confides with you that without the magic relic, the villagers turn into plushies.",
     image: "ImagesFolder/q7.png",
     answers: [
-      { type: "T", text: "Immediately start crafting a plan to recover the relic and rescue the villagers.", scores: { T: 1, F: 0 } },
-      { type: "F", text: "Wait for the sun to rise before setting off to rescue the villagers. No point getting lost too.", scores: { T: 0, F: 1 } }
+      { type: "T", text: "Roll up your sleeves and start planning a rescue mission! Those villagers need a hero.", scores: { T: 1, F: 0 } },
+      { type: "F", text: "No need to rush, you’ll save the day in the morning. Besides, plushies are pretty cute, right?", scores: { T: 0, F: 1 } }
     ]
   },
   {
-    question: "Q8/12: You prepare to embark on your quest deeper into the mysterious woods",
+    question: "Q8/12: As you prepare to embark on your quest deeper into the mysterious woods",
     image: "ImagesFolder/q8.png",
     answers: [
-      { type: "J", text: "You carefully unfurl a treasure map, ready to set forth on your carefully planned route.", scores: { J: 1, P: 0 } },
-      { type: "P", text: "Brimming full of excitement, you embrace the unknown, letting unexpected turns guide your journey.", scores: { J: 0, P: 1 } }
+      { type: "J", text: "You pack a map marked with a carefully planned route.", scores: { J: 1, P: 0 } },
+      { type: "P", text: "You stuff your backpack full of snacks as that is the only thing you need.", scores: { J: 0, P: 1 } }
     ]
   },
   {
-    question: "Q9/12: You find a small group of fairies whispering about the lost relic’s location. You...",
+    question: "Q9/12: Behind a hedge, you find a small group of fairies whispering about the lost relic’s location.",
     image: "ImagesFolder/q9.png",
     answers: [
       { type: "E", text: "Join the circle hoping to uncover every detail about the relic’s whereabouts.", scores: { E: 1, I: 0 } },
-      { type: "I", text: "Hide behind a tree, listening intently to their murmurs and piecing together the clues on your own.", scores: { E: 0, I: 1 } }
+      { type: "I", text: "Hide behind a tree, listening to their murmurs and piecing together the clues on your own.", scores: { E: 0, I: 1 } }
     ]
   },
   {
-    question: "Q10/12: At last, you discover the lost relic. Back to the village we go!",
+    question: "Q10/12: At last, you discover the lost relic. Hooray!",
     image: "ImagesFolder/q10.gif",
     answers: [
-      { type: "S", text: "The unmistakable scent of pine is a reminder that your friends in the village eagerly await your return.", scores: { S: 1, N: 0 } },
-      { type: "N", text: "A soothing warmth radiates from the relic, as if it's saying that the villagers are missing you.", scores: { S: 0, N: 1 } }
+      { type: "S", text: "Hold it up to the light - that angle’s perfect. This one’s going straight to Stories.", scores: { S: 1, N: 0 } },
+      { type: "N", text: "Soon they’ll be chanting my name in Juniper Grove. Legendary status, here I come!", scores: { S: 0, N: 1 } }
     ]
   },
   {
     question: "Q11/12: The chief reveals that the relic has the power to transform you into a villager at will.",
     image: "ImagesFolder/q11.gif",
     answers: [
-      { type: "T", text: "That's incredible! You're excited to try out its power and have fun with your new friends.", scores: { T: 1, F: 0 } },
-      { type: "F", text: "Your heart fills with delight at the thought of such playful magic and you imagine the fun it will bring", scores: { T: 0, F: 1 } }
+      { type: "T", text: "That's incredible! You can’t wait to test it out and cause a little chaos with your new village buddies.", scores: { T: 1, F: 0 } },
+      { type: "F", text: "Your heart fills with delight at the thought of such playful magic and you imagine the fun it will bring.", scores: { T: 0, F: 1 } }
     ]
   },
   {
     question: "Q12/12: As you head home, you wonder: When will you visit them again?",
     image: "ImagesFolder/q12.gif",
     answers: [
-      { type: "J", text: "You make a promise that on the next full moon, you will journey back to the village.", scores: { J: 1, P: 0 } },
-      { type: "P", text: "You let fate decide your return, trusting that the winds of adventure will whisper in your ear.", scores: { J: 0, P: 1 } }
+      { type: "J", text: "On the next full moon! You’re already planning what snacks to bring.", scores: { J: 1, P: 0 } },
+      { type: "P", text: "Who knows? Maybe a squirrel will drop you a clue or a rainbow will point the way.", scores: { J: 0, P: 1 } }
     ]
   }
 ];
