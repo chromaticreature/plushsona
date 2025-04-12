@@ -253,7 +253,7 @@ function showResult() {
   
   // Add event listener for the Share button
  document.getElementById("share-btn").addEventListener("click", function() {
-  const message = 'Apply for your Plushsona ID card here\n' + window.location.href;
+  const message = 'Apply for your Plushsona ID card here!:\n' + window.location.href;
 
   navigator.clipboard.writeText(message).then(() => {
     alert("Link copied to clipboard! ✅");
